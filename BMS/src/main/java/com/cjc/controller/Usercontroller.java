@@ -16,6 +16,7 @@ import com.cjc.model.User;
 public class Usercontroller 
 {
 	private static final Logger Log=LoggerFactory.getLogger(User.class);
+	
 	@PostMapping("/post")
 	public ResponseEntity<User> oncreateuserdata(@RequestBody User u)
 	{
